@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/Notes"
+    >
+    <fragment
+        android:id="@+id/Faculty"
+        android:name="com.example.tt.fragments.Faculty"
+        android:label="fragment_faculty"
+        tools:layout="@layout/fragment_faculty" />
+    <fragment
+        android:id="@+id/Holiday"
+        android:name="com.example.tt.fragments.holiday"
+        android:label="fragment_holiday"
+        tools:layout="@layout/fragment_holiday" />
+    <fragment
+        android:id="@+id/Notes"
+        android:name="com.example.tt.fragments.notes"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/Syllabus"
+        android:name="com.example.tt.fragments.Syllabus"
+        android:label="fragment_syllabus"
+        tools:layout="@layout/fragment_syllabus" />
+    <fragment
+        android:id="@+id/Time_Table"
+        android:name="com.example.tt.fragments.TimeTable"
+        android:label="fragment_time_table"
+        tools:layout="@layout/fragment_time_table" />
+</navigation>

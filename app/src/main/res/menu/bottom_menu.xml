@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Notes"
+        android:title="Notes"
+        android:icon="@drawable/notes"
+        />
+    <item android:id="@+id/Syllabus"
+        android:title="Syllabus"
+        android:icon="@drawable/syllabus"/>
+
+    <item android:id="@+id/Holiday"
+        android:title="Holiday"
+        android:icon="@drawable/holiday"
+        />
+    <item android:id="@+id/Faculty"
+        android:title="Faculty"
+        android:icon="@drawable/faculty"
+        />
+    <item android:id="@+id/Time_Table"
+        android:title="Time Table"
+        android:icon="@drawable/timetable"
+        />
+</menu>

@@ -7,4 +7,6 @@
     </string>
     <string name="about1">The information like time-table, syllabus, lecture notes etc enable users to meet the requirements of a student in the department.
      The information here guides you in the academic areas. This is user friendly.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
