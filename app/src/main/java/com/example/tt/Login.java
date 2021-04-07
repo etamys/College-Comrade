@@ -104,7 +104,7 @@ public class Login extends AppCompatActivity {
                         c.secondtime();
                         String E = email.getText().toString();
                         Toast.makeText(Login.this, "logged in", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), PROFILE.class);
+                        Intent intent = new Intent(getApplicationContext(), Bottom_main.class);
 
                         intent.putExtra(Student_name, E);
                         startActivity(intent);

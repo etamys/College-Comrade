@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/Notes"
         android:title="Notes"
-        android:icon="@drawable/notes"
+        android:icon="@drawable/note_book"
         />
     <item android:id="@+id/Syllabus"
         android:title="Syllabus"
-        android:icon="@drawable/syllabus"/>
+        android:icon="@drawable/syllabus_icon"/>
 
     <item android:id="@+id/Holiday"
         android:title="Holiday"
-        android:icon="@drawable/holiday"
+        android:icon="@drawable/holiday_icon"
         />
     <item android:id="@+id/Faculty"
         android:title="Faculty"
-        android:icon="@drawable/faculty"
+        android:icon="@drawable/teacher"
         />
     <item android:id="@+id/Time_Table"
         android:title="Time Table"
-        android:icon="@drawable/timetable"
+        android:icon="@drawable/time_table_icon"
         />
 </menu>

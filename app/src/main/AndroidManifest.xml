@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Bottom_main">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Login" />
         <activity android:name=".eec" />
@@ -22,11 +17,6 @@
         <activity android:name=".dsa" />
         <activity android:name=".math" />
         <activity android:name=".Lecturenotes" />
-        <activity android:name=".timetable" />
-        <activity android:name=".syllabus" />
-        <activity android:name=".holiday" />
-        <activity android:name=".faculty" />
-        <activity android:name=".PROFILE" />
         <activity android:name=".contact" />
         <activity android:name=".MainActivity">
             <intent-filter>
